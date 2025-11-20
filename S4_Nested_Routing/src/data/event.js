@@ -1,9 +1,15 @@
 // src/data/events.js
+import e1 from "../assets/img/e1.jpg";
+import e2 from "../assets/img/e2.jpg";
+import e3 from "../assets/img/e3.jpg";
+import e4 from "../assets/img/e4.jpg";
+import e5 from "../assets/img/e5.jpg";
+import e6 from "../assets/img/e6.jpg";
 const events = [
   {
     id: "e1",
     title: "City Music Festival 2025",
-    image: "/mnt/data/image-gen.jpg",
+    image: e1,
     date: "2025-07-12",
     time: "6:00 PM",
     location: "Town Square Amphitheater",
@@ -15,7 +21,7 @@ const events = [
   {
     id: "e2",
     title: "Tech Innovators Conference",
-    image: "/mnt/data/image-gen.jpg",
+    image: e2,
     date: "2025-08-03",
     time: "9:00 AM",
     location: "Grand Convention Center",
@@ -27,7 +33,7 @@ const events = [
   {
     id: "e3",
     title: "Creative Workshop — Design Thinking",
-    image: "/mnt/data/image-gen.jpg",
+    image: e3,
     date: "2025-09-01",
     time: "10:30 AM",
     location: "Studio 14, Creator Hub",
@@ -39,7 +45,7 @@ const events = [
   {
     id: "e4",
     title: "Cultural Festival: Colors & Crafts",
-    image: "/mnt/data/image-gen.jpg",
+    image: e4,
     date: "2025-10-18",
     time: "11:00 AM",
     location: "Riverside Park",
@@ -51,7 +57,7 @@ const events = [
   {
     id: "e5",
     title: "Startup Pitch Night",
-    image: "/mnt/data/image-gen.jpg",
+    image: e5,
     date: "2025-11-05",
     time: "7:00 PM",
     location: "Co-Work Labs Auditorium",
@@ -63,7 +69,7 @@ const events = [
   {
     id: "e6",
     title: "Evening Wedding Expo",
-    image: "/mnt/data/image-gen.jpg",
+    image: e6,
     date: "2025-12-09",
     time: "4:00 PM",
     location: "Marigold Banquet Hall",

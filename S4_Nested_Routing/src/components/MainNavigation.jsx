@@ -1,10 +1,11 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function MainNavigation() {
   return (
-    <nav className="bg-[var(--color-primary)] text-white">
+    <nav className="fixed top-0 left-0 w-full bg-[var(--color-primary)]/95 text-white backdrop-blur-lg shadow-md z-50">
       <ul className="flex items-center justify-center p-5 space-x-10">
+        {/* Home */}
         <li>
           <NavLink
             to=""
@@ -19,6 +20,7 @@ export default function MainNavigation() {
           </NavLink>
         </li>
 
+        {/* About */}
         <li>
           <NavLink
             to="about"
@@ -32,6 +34,7 @@ export default function MainNavigation() {
           </NavLink>
         </li>
 
+        {/* Events */}
         <li>
           <NavLink
             to="events"
