@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Universal Events Palette */
+  --color-primary: #3d2c8d; /* Indigo */
+  --color-secondary: #f15a29; /* Sunset Orange */
+  --color-accent: #f6c90e; /* Golden Yellow */
+  --color-soft: #fce9d9; /* Peach */
+  --color-bg: #d8d6e1; /* Lavender Gray */
+
+  /* Optional Shades */
+  --color-primary-dark: #2a1f63;
+  --color-primary-light: #5a47b2;
+
+  --color-secondary-dark: #c2441f;
+  --color-secondary-light: #f37a4f;
+
+  --color-accent-dark: #c9a10d;
+  --color-accent-light: #ffe55a;
+}
+
+/* Apply chosen Google font globally */
+html, body, #root {
+  font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  height: 100%;
+  background-color: var(--color-bg);
+  color: #111827;
+}
