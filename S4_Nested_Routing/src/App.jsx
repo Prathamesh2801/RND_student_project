@@ -8,6 +8,7 @@ import ErrorPage from "./pages/ErrorPage";
 import EventsDetailPage from "./pages/EventsDetailPage";
 import NewEventsPage from "./pages/NewEventsPage";
 import EventsLayout from "./layouts/EventsLayout";
+import PlayGround from "./components/PlayGround";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -29,6 +30,10 @@ export default function App() {
           ],
         },
       ],
+    },
+    {
+      path: "/playground",
+      element: <PlayGround />,
     },
   ]);
 
